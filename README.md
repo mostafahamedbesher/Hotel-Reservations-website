@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hotel Reservations Website
 
-## Getting Started
+## About
 
-First, run the development server:
+This project is a hotel reservations website created with Next.js and React. The website allows users to register using their Google account, view available cabins, filter cabins by the number of guests, book any cabin, and manage their reservations by editing or deleting them. It covers all CRUD operations and also allows users to update their profile data.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Nextjs**
+- **Reactjs**
+- **NextAUTH**
+- **Tailwind**
+- **react-day-picker**
+- **react-fns**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- **User Authentication**: Register and log in using your Google account.
+- **Cabin Viewing**: Browse our cabins and filter them based on the number of guests.
+- **Booking System**: Book any cabin of your choice.
+- **Reservation Management**: Edit or delete your reservations.
+- **Profile Management**: Update your profile data.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Demo :
+  https://hotel-reservations-website.vercel.app/
